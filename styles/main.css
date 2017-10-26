@@ -47,6 +47,35 @@ a:hover {
 #loading-sp {width: 100%;height: 100%;top: 0;right: 0;bottom: 0;left: 0;background: #fff;z-index: 99999;position: fixed;display: block;}
 #loader-img {position: relative;height:32px;width:32px;top:45%;margin: 0 auto -32px;background:url(../images/loading.gif) 0 0 no-repeat;}
 
+#loading-sp:before {
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content:url(../project/ftt/global_b.jpg) 
+               url(../project/ftt/mafia_b.jpg)
+               url(../project/ftt/promotion_b.jpg)
+               url(../project/ftt/point_b.jpg)
+               url(../project/ftt/showcase_b.jpg)
+               url(../project/ftt/admin_b.jpg)
+               url(../project/sds/sds_alm_b.jpg)
+               url(../project/sds/sds_openpms_b.jpg)
+               url(../project/sds/sds_ioffice_b.jpg)
+               url(../project/sds/sds_edutto_b.jpg)
+               url(../project/sds/sds_anyframeUI_b.jpg)
+               url(../project/sds/sds_wyzmeeting_b.jpg)
+               url(../project/webzen/webzen_mutheg_mobile_b.jpg)
+               url(../project/webzen/webzen_archload2_b.jpg)
+               url(../project/webzen/webzen_newportal_b.jpg)
+               url(../project/neowiz/neowiz_brasen_b.jpg)
+               url(../project/neowiz/webzen_mutheg_mobile_b.jpg)
+               url(../project/neowiz/neowiz_raiderz_b.jpg)
+               url(../project/neowiz/neowiz_portal01_b.jpg)
+               url(../project/neowiz/neowiz_pmang_mobile_b.jpg)
+               url(../project/neowiz/neowiz_pmang_portal_b.jpg)
+               url(../project/neowiz/neowiz_pcbang_b.jpg)
+               url(../project/gameon/neowizjp_brainleague_b.jpg)
+               url(../project/gameon/neowizjp_youina_b.jpg)
+               url(../project/gameon/neowizjp_gamechu01_b.jpg)
+}
+
 #nav {
     position: fixed;
     top: 0;
