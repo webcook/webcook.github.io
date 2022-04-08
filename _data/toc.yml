@@ -14,7 +14,7 @@
       url: "about"
     - title: "News"
       url: "news"
-- title: "Extras"
+- title: "Menu2"
   url: "docs/extras"
   links:
     - title: Quizzes

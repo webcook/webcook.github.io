@@ -7,14 +7,14 @@ description: >
   results) and in your feed.xml site description.
 baseurl: ""
 url: "https://webcook.github.io"
-repo: "https://github.com/webcook/"
+repo: "webcook.github.io"
 github_user: webcook
 github_repo: webcook.github.io
 github_branch: master
 twitter: none
 linkedin: none
 dockerhub: none
-feedback: true
+feedback: false
 logo_pixels: 34
 color: "#30638e"
 markdown: kramdown
