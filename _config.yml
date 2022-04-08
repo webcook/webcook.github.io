@@ -1,6 +1,6 @@
 title: webcook tech
 email: chefboy@naver.com
-author: Dinosaur Avocado
+author: webcook
 description: >
   Write an awesome description for your new site here. You can edit this line in
   _config.yml. It will appear in your document head meta (for Google search
@@ -23,6 +23,7 @@ accentColor: red
 themeColor: red
 fixedNav: "true"
 permalink: "/:year/:title/"
+breadcrumb: yes
 exclude:
   - _site
   - CHANGELOG.md
@@ -49,3 +50,7 @@ defaults:
       type: posts
     values:
       layout: post
+jekyll_admin:
+  homepage: "posts"
+  hidden_links:
+    - staticfiles

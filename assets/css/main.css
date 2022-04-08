@@ -6,6 +6,23 @@ excluded_in_search: true
 @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i";
 @fa-font-path: "../webfonts";
 
+/* header */
+.navbar-logo {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 8px;
+  margin-bottom: -6.25px;
+}
+.navbar-logo img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+
+
 .gh-source {
     display: block;
     padding-right: 1.2rem;
@@ -18576,6 +18593,17 @@ html body .md-typeset .headerlink {
 footer {
   padding: 12px 0;
 }
+footer .text-white {
+  line-height: 1;
+}
+footer .list-inline-item {
+  margin-bottom: 0;
+}
+footer .list-inline-item .fab {
+  display: inline-block;
+  vertical-align: top;
+}
+
 @media(min-width:768px) {
     .td-offset-anchor:target {
         display: block;
