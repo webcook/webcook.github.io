@@ -18573,17 +18573,9 @@ html body .md-typeset .headerlink {
     border-style: solid;
     border-color: #403f4c
 }
-
 footer {
-    min-height: 150px
+  padding: 12px 0;
 }
-
-@media(max-width:991.98px) {
-    footer {
-        min-height: 200px
-    }
-}
-
 @media(min-width:768px) {
     .td-offset-anchor:target {
         display: block;
