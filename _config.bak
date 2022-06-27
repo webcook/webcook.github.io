@@ -1,4 +1,3 @@
-
 title: webcook tech
 email: chefboy@naver.com
 author: webcook
@@ -18,17 +17,19 @@ dockerhub: none
 feedback: false
 logo_pixels: 34
 color: "#30638e"
-
 markdown: kramdown
 tag_color: primary
-
 accentColor: red
 themeColor: red
 fixedNav: "true"
-
 permalink: "/:year/:title/"
-#breadcrumb: yes
-exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
+breadcrumb: yes
+exclude:
+  - _site
+  - CHANGELOG.md
+  - LICENSE
+  - README.md
+  - vendor
 collections:
   docs:
     output: true
@@ -49,3 +50,7 @@ defaults:
       type: posts
     values:
       layout: post
+jekyll_admin:
+  homepage: "posts"
+  hidden_links:
+    - staticfiles
